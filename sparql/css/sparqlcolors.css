@@ -14,44 +14,44 @@ html {
   margin: 0;
 }
 
-span.sp-keyword {
+span.cm-sp-keyword {
   color: #92a;
 }
 
-span.sp-prefixed {
+span.cm-sp-prefixed {
   color: #f80;
 }
 
-span.sp-var {
+span.cm-sp-var {
   color: #00c;
 }
 
-span.sp-comment {
+span.cm-sp-comment {
   color: #a70;
 }
 
-span.sp-literal {
+span.cm-sp-literal {
   color: #a22;
 }
 
-span.sp-uri {
+span.cm-sp-uri {
   color: #292;
 }
 
-span.sp-operator {
+span.cm-sp-operator {
   color: #088;
 }
 
-span.sp-punc {
+span.cm-sp-punc {
   color: #088;
 }
 
-span.sp-number {
+span.cm-sp-number {
   color: #a22;
 }
 
 
-span.sp-error {
+span.cm-sp-error {
   /* color:rgb(0,255,255); */
   /* background-color:rgb(255,0,0); */
   /* text-decoration: underline; */
