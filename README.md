@@ -20,6 +20,7 @@ Building
 
 Install [browserify](http://browserify.org).  Then:
 
+    npm install
     browserify browser.js -o dist/flint.js
 
 
