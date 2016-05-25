@@ -1,0 +1,28 @@
+{
+  "name": "flint-sparql-editor",
+  "version": "1.0.3-fork",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSO-Openup/FlintSparqlEditor.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TSO-Openup/FlintSparqlEditor/issues"
+  },
+  "homepage": "https://github.com/TSO-Openup/FlintSparqlEditor#readme",
+  "dependencies": {
+    "codemirror": "^5.15.2",
+    "jquery": "^2.2.4",
+    "jquery.browser": "^0.1.0"
+  }
+}

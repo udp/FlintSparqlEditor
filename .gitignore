@@ -1,2 +1,7 @@
 *.svn
 *.db
+
+node_modules
+dist/flint.js
+
+

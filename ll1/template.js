@@ -1,4 +1,4 @@
-CodeMirror.defineMode("%%%modename%%%", function(config, parserConfig) {
+require('codemirror').defineMode("%%%modename%%%", function(config, parserConfig) {
 
 	var indentUnit = config.indentUnit;
 
