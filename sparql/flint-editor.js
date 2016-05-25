@@ -1611,9 +1611,9 @@ function FlintEditor(container, imagesPath, config) {
 									if (activeTab === "Prefixes") {
 										displayPrefixes();
 									}
-									if (datasetItem.properties.results.bindings.length == 1000) {
+									if (config.maxProperties !== undefined && datasetItem.properties.results.bindings.length == config.maxProperties) {
 										window
-												.alert("The maximum number of properties has been reached - 1000");
+												.alert("The maximum number of properties has been reached - " + config.maxProperties);
 									}
 
 								}
@@ -1672,9 +1672,9 @@ function FlintEditor(container, imagesPath, config) {
 									if (activeTab === "Prefixes") {
 										displayPrefixes();
 									}
-									if (datasetItem.classes.results.bindings.length == 1000) {
+									if (config.maxClasses !== undefined && datasetItem.classes.results.bindings.length == config.maxClasses) {
 										window
-												.alert("The maximum number of classes has been reached - 1000");
+												.alert("The maximum number of classes has been reached - " + config.maxClasses);
 									}
 								}
 							});

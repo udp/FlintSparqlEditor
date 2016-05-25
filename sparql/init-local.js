@@ -178,7 +178,10 @@ $(document)
 						}, {
 							"name" : "SPARQL 1.1 Update",
 							"mode" : "sparql11update"
-						} ]
+						} ],
+
+                        "maxClasses": 1000,
+                        "maxProperties": 1000
 					}
 
 					var flintEd = new FlintEditor("flint-test",
